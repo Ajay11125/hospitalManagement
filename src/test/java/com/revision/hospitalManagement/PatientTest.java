@@ -16,6 +16,9 @@ public class PatientTest {
     public void testPatientRepository(){
         List<Patient> patientList=patientRepository.findAll();
         System.out.println(patientList);
+        Patient p=patientRepository.findByEmail("ajay@example.com");
+        System.out.println(p);
+
     }
 
 }

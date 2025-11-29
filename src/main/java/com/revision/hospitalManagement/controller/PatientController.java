@@ -13,8 +13,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 public class PatientController {
 
-
-
     @GetMapping("/patient/{id}")
     public ResponseEntity<PatientDTO> getPatient(@PathVariable Long id){
         return ResponseEntity.status(HttpStatus.OK).body(new PatientDTO());

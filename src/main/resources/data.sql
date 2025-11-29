@@ -9,3 +9,4 @@ VALUES
 ('Simran Kaur', '2001-07-09', 'simran@example.com', 'Female', CURRENT_DATE),
 
 ('Rohan Mehta', '1995-02-02', 'rohan@example.com', 'Male', CURRENT_DATE);
+ 

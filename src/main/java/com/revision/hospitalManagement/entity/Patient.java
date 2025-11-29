@@ -3,6 +3,7 @@ package com.revision.hospitalManagement.entity;
 
 import com.revision.hospitalManagement.enums.Gender;
 import jakarta.persistence.*;
+import lombok.ToString;
 import org.hibernate.annotations.UpdateTimestamp;
 import org.hibernate.sql.ast.spi.LockingClauseStrategy;
 import org.springframework.data.annotation.CreatedDate;
@@ -18,6 +19,7 @@ import java.time.LocalDate;
         }
 
 )
+@ToString
 public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
